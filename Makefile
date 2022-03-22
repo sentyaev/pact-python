@@ -30,7 +30,7 @@ clean:
 
 .PHONY: deps
 deps:
-	pip install -r requirements_dev.txt -e .
+	poetry install
 
 
 define CONSUMER
